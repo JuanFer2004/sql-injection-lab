@@ -1,35 +1,12 @@
-# Ciberseguridad - Laboratorio No. 1 - SQL Injection
+﻿# Laboratorio SQL Injection - AnÃ¡lisis de Vulnerabilidades
 
-## Instalación
+**Repositorio del laboratorio (fork / entrega):**  
+- Fork con la aplicaciÃ³n vulnerable (uso para pruebas): https://github.com/JuanFer2004/sql-injection-lab  
+- Repositorio de entrega final: https://github.com/JuanFer2004/actividad
 
-1. Clonar/Descargar el repositorio
+## InformaciÃ³n del Equipo
+- **Integrante 1:** Juan Fernando Bueno Torres â€” @JuanFer2004  
+- **Integrante 2:** NOMBRE COMPLETO â€” @GITHUB_USER2  
+- **Fecha de entrega:** YYYY-MM-DD
 
-2. Crear el entorno virtual
-```bash
-python -m venv venv
-```
-
-3. Activar entorno virtual
-```bash
-venv\Scripts\activate
-```
-
-4. Instalar dependencias
-```bash
-pip install -r requirements.txt
-```
-
-5. Inicializar la base de datos
-```bash
-python database.py
-```
-
-6. Ejecutar la aplicación
-```bash
-python -m uvicorn vulnerable_app:app --reload --port 8000
-```
-
-7. Abrir en el navegador
-```bash
-http://localhost:8000
-```
+(Editar las partes en MAYÃšSCULAS antes de subir)
